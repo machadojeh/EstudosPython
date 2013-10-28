@@ -13,3 +13,5 @@ class ClasseFeliz (object):
 	def negativo(self):
 		return self.valor < 0
 		
+class BailOut(Exception):
+    pass
